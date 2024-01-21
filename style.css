@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+.app{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.app-part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-username{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    border-radius: 2rem;
+    padding: 1rem;
+    outline: none;
+    font-size: large;
+}
+.input-button{
+ 
+        background-color: #3498db;
+        color: #fff;
+       
+       margin-left: 1rem;
+        border: none;
+        border-radius: 1rem;
+        cursor: pointer;
+        font-size: large;
+        padding: 0.5rem;
+    }
+.input-button:hover{
+    background-color: #2980b9;
+}
+
+
+.user-image{
+    border: 2px solid blue;
+    width: 2rem;
+}
+.user-button{
+    background-color: #3498db;
+    color: #fff;
+   
+
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    
+   
+}
+.user-button:hover{
+    background-color: #2980b9;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+li{
+    margin: 10px;
+}
+
+.user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    border: 0.5px solid #e8e6e6; 
+    border-radius: 0.5rem; 
+    padding: 1rem; 
+}
+
+
+
+.user-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-avatar{
+    
+    width: 10rem;
+    height: 10rem;
+    margin-left: 5rem;
+    border-radius: 50%;
+    margin-top: 2rem;
+   
+}
+
+.user-details{
+   
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+   
+    margin-top: 2rem;
+}
+.copy{
+    
+    margin-left: 4rem;
+}
+.name{
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.repo-heading{
+    
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.repo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.repo-item {
+    width: 48%;
+    box-sizing: border-box;
+    margin-bottom: 20px; 
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.repo-heading {
+    margin-top: 20px;
+}
+
+.simple-repo-name{
+    font-size:x-large ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    align-items: center;
+}
+.simple-repo-description{
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.repo-language-wrapper{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.repo-language{
+    background-color:rgb(81, 81, 218) ;
+    color: white;
+    font-size: larger;
+    border-radius: 2rem;
+    padding: 0.7rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    
+}
+
+.pagination-container {
+    margin-top: 20px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.pagination-button:hover {
+    background-color: #2980b9;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; 
+    border-top: 8px solid #3498db; 
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    display: none; 
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

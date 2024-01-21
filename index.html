@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Git Rep Search</title>
+</head>
+<body>
+    <div class="app">
+    <h1>Github Repository Search</h1>
+    <div class="app-part">
+    <input type="text" class="input-username" id="username" placeholder="Enter Username" >
+   
+    <button class="input-button" onclick="fetchUserData()">Search</button>
+</div>
+</div>
+    <br>
+
+    <div id="result"></div>
+    
+<div id="loader" class="loader"></div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
